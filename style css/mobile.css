@@ -61,6 +61,8 @@ a{
 
 /* Sessão do menu */
 div.sidebar{ /*menu mobile*/
+    width: 0;
+    transition: width 0.3s ease;
     height: 100vh;
     position: fixed;
     z-index: 1;
